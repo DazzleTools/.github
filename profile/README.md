@@ -642,7 +642,7 @@ If you're using DazzleTools professionally or personally:
 - **[DazzleLib](https://github.com/DazzleLib)** - Foundation libraries
 - **[DazzleTools](https://github.com/DazzleTools)** - Command-line tools ← *You are here*
 - **[DazzleNodes](https://github.com/DazzleNodes)** - ComfyUI custom nodes
-- **[DazzleAI](https://github.com/DazzleAI)** - AI development tools
+- **[DazzleML](https://github.com/DazzleML)** - AI development tools
 
 ### Related Ecosystems
 
