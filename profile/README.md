@@ -108,7 +108,7 @@ See individual tool repositories for specific dependencies.
 
 - **GitHub**: [@djdarcy](https://github.com/djdarcy)
 - **Issues**: Use repository-specific issue trackers
-- **Discussions**: [GitHub Discussions](https://github.com/DazzleTools/discussions)
+- **Discussions**: [GitHub Discussions](https://github.com/orgs/DazzleTools/discussions)
 - **Sponsorship**: [GitHub Sponsors](https://github.com/sponsors/djdarcy)
 - **Website**: [DazzleProj.com](https://dazzleproj.com) *(coming soon)*
 
