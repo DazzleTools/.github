@@ -2,7 +2,7 @@
 
 **System Management Utilities for Everyone**
 
-[![GitHub](https://img.shields.io/badge/GitHub-DazzleTools-blue?logo=github)](https://github.com/DazzleTools)
+[![GitHub](https://img.shields.io/badge/GitHub-DazzleTools-blue?logo=github)](https://github.com/DazzleTools/.github)
 [![License](https://img.shields.io/badge/License-GPL%203.0-green.svg)](LICENSE)
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/djdarcy)
 
