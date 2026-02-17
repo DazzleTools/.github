@@ -39,7 +39,7 @@ dz dos2unix myfile.txt         # Run any tool directly
 dz info preserve               # Get details about a tool
 ```
 
-But DazzleCMD isn't just for DazzleTools — it's a personal tool manager for any developer. Everyone has scripts scattered across machines that aren't version-controlled, break on different platforms, and can't be found when needed. `dz` solves this: turn any script into a versioned, namespaced tool available on any computer, any platform, without setting up a new git repo for each one.
+But DazzleCMD isn't just for DazzleTools. `dz` is a personal tool manager for any developer. Everyone has scripts scattered across machines that aren't version-controlled, or that break on different platforms, and can't be easily found when needed. `dz` solves this. It turn any script into a versioned, namespaced tool available on any computer, any platform, without setting up a new git repo for each one.
 
 ```bash
 # Create a tool from your script — immediately versioned and organized
