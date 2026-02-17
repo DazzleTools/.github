@@ -25,16 +25,42 @@
 
 ## Featured Tool
 
-#### [NCSI Resolver](https://github.com/djdarcy/Windows-No-Internet-Secured-BUGFIX)
-**Fix Windows "No Internet, Secured" false detection**
+### [DazzleCMD (`dz`)](https://github.com/DazzleTools/dazzlecmd)
+**Brew for your own tools — many tools, one command, any machine**
 
-If Windows shows "No Internet, Secured" when you actually have internet, this tool fixes it. Runs silently as a Windows service and makes OneNote, OneDrive, and other Microsoft UWP apps work again.
+Install `dz` and every tool in DazzleTools is immediately at your fingertips — no cloning individual repos, no PATH configuration, no per-tool setup. DazzleCMD is the unified interface that brings the entire collection under one command:
 
 ```bash
-# Install and run as Windows service
-ncsi-resolver install
-ncsi-resolver start
+pip install dazzle-dz
+
+# The full DazzleTools collection, ready to use
+dz list                        # See everything available
+dz dos2unix myfile.txt         # Run any tool directly
+dz info preserve               # Get details about a tool
 ```
+
+But DazzleCMD isn't just for DazzleTools — it's a personal tool manager for any developer. Everyone has scripts scattered across machines that aren't version-controlled, break on different platforms, and can't be found when needed. `dz` solves this: turn any script into a versioned, namespaced tool available on any computer, any platform, without setting up a new git repo for each one.
+
+```bash
+# Create a tool from your script — immediately versioned and organized
+dz new my-backup --full -d "Backup important files with verification"
+
+# Import an entire GitHub org or user's repos as a kit
+dz kit import --org djdarcy    # Every tool, namespaced and ready
+
+# Your tools work the same everywhere
+dz my-backup ~/documents /mnt/nas
+dz rename-files *.txt --dry-run
+```
+
+**What makes it different from brew, just, or a ~/bin directory?**
+- **Your tools, not just community packages** — `dz new` scaffolds, versions, and organizes scripts you already have
+- **Import whole collections** — pull in a GitHub org or user's repos and have every tool instantly available
+- **Polyglot dispatch** — Python, bash, PowerShell, compiled binaries — `dz` runs them all transparently
+- **No PATH hell** — one command works across Windows, Linux, and macOS without per-machine setup
+- **Namespace collision prevention** — `work:deploy` and `personal:deploy` coexist cleanly
+- **Kit-based curation** — bundle tools into logical groups (DazzleTools itself is just one kit)
+- **Tool lifecycle** — one-off scripts start in `dz`, grow into full repos with CI/CD and tests, then return to `dz` as submodules. The ecosystem captures the entire journey from quick hack to mature project — and tools never leave
 
 ## Dependencies
 
